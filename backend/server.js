@@ -22,10 +22,7 @@ app.use("/api/items", itemsRoutes);
 app.use("/api/cart", cartRoutes);
 app.use("/api/order", orderRoutes);
 
-// optional: static serve (if you want backend to serve frontend)
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
-// app.use(express.static(path.join(__dirname, "../frontend")));
+ 
 
 const PORT = process.env.PORT || 4000;
 
