@@ -26,6 +26,14 @@ app.use("/api/order", orderRoutes);
 
 const PORT = process.env.PORT || 4000;
 
+app.use(cors({
+    origin: "https://shopping-cart-1-ol2v.onrender.com",
+    methods: ["GET","POST","PUT","DELETE"]
+}));
+
+app.use(express.json());
+
+
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => {
