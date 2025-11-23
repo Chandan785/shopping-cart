@@ -25,12 +25,14 @@ app.use("/api/order", orderRoutes);
  
 
 const PORT = process.env.PORT || 4000;
+const allowedOrigin = process.env.CORS_ORIGIN;
 
 app.use(cors({
-    origin: "https://shopping-cart-1-ol2v.onrender.com",
-    methods: ["GET","POST","PUT","DELETE"]
+    origin: allowedOrigin,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true
 }));
-
 app.use(express.json());
 
 
