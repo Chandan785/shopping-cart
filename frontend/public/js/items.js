@@ -1,5 +1,5 @@
 //const API = "http://localhost:4000/api";
-const API = "https://shopping-cart-api.onrender.com/api";
+const API = "https://backend-shopping-cart-c71k.onrender.com/api";
 
 const token = localStorage.getItem("token");
 
