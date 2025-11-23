@@ -49,11 +49,11 @@ shopping-cart/
 │   │   ├── Item.js                                               
 │   │   └── Cart.js                                                                                                                                                                   
 |   |   └── Order.js                                                                                          
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── item.js
-│   │   ├── cart.js                                                                     
-│   │   └── order.js
+│   ├── routes/                                                         
+│   │   ├── auth.js                                                                                      
+│   │   ├── item.js                                                                                             
+│   │   ├── cart.js                                                                                                                                                           
+│   │   └── order.js                                                                        
 │   └── middleware/                                                           
 │       └── auth.js                                                                            
 │
@@ -119,6 +119,35 @@ Just open index.html in the browser (or host with any static server).
 
 ### 📦 Deployment
 
-● Backend deployed using Render Node Server
-● Frontend deployed using Render Static Hosting
+● Backend deployed using Render Node Server.                                                                        
+● Frontend deployed using Render Static Hosting.
  
+ ## 📸 Screenshots
+
+### 🏠 Home Page
+<img src="https://raw.githubusercontent.com/Chandan785/shopping-cart/3306e2769b6ceea0a1d34f0181d20328f40d2d74/home%20page.png" width="800">
+
+---
+
+### 📝 Signup Page
+<img src="https://raw.githubusercontent.com/Chandan785/shopping-cart/3306e2769b6ceea0a1d34f0181d20328f40d2d74/signup.png" width="800">
+
+---
+
+### 🔐 Login Page
+<img src="https://raw.githubusercontent.com/Chandan785/shopping-cart/3306e2769b6ceea0a1d34f0181d20328f40d2d74/login.png" width="800">
+
+---
+
+### 📦 Items Page
+<img src="https://raw.githubusercontent.com/Chandan785/shopping-cart/3306e2769b6ceea0a1d34f0181d20328f40d2d74/items.png" width="800">
+
+---
+
+### 🛒 Cart Page
+<img src="https://raw.githubusercontent.com/Chandan785/shopping-cart/3306e2769b6ceea0a1d34f0181d20328f40d2d74/card.png" width="800">
+
+---
+
+### 💳 Checkout Popup
+<img src="https://raw.githubusercontent.com/Chandan785/shopping-cart/3306e2769b6ceea0a1d34f0181d20328f40d2d74/cheackout.png" width="800">
